@@ -11,5 +11,6 @@ class Solution:
         for i,b in enumerate(B):
             index_map[b] = i
         
+        
      
         return [index_map[a] for a in A]
